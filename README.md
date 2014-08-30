@@ -1,6 +1,7 @@
 # Customer.Io integration for Meteor
 
-This is an isopack!<br>
+This is an isopack!
+
 (Which means, both client and server has the same API)
 
 ## Installation
