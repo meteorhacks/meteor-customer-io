@@ -5,8 +5,8 @@ var a,b,c;a=function(f){return function(){_cio.push([f].
     var t = document.createElement('script'),
         s = document.getElementsByTagName('script')[0];
 
-CustomerIo = function(cio) {
-  this.cio = cio;
+CustomerIo = function() {
+
 }
 
 CustomerIo.prototype.identify = function(id, email, properties) {
@@ -14,11 +14,11 @@ CustomerIo.prototype.identify = function(id, email, properties) {
   properties.id = id;
   properties.email = email;
 
-  return this.cio.identify(properties);
+  return window._cio.identify(properties);
 };
 
 CustomerIo.prototype.track = function(id, event, properties) {
-  return this.cio.track(event, properties);
+  return window._cio.track(event, properties);
 };
 
 CustomerIo.init = _.once(function(siteId) {
