@@ -3,6 +3,6 @@
   "description": "Customer.io Integration for Meteor",
   "homepage": "https://github.com/meteorhacks/meteor-customer.io",
   "author": "MeteorHacks <hello@meteorhacks.com>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "git": "https://github.com/meteorhacks/meteor-customer.io.git"
 }
