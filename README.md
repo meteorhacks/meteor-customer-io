@@ -33,6 +33,6 @@ This is an isopack!<br>
     var userId = 'user_id';
     var event = 'the_event';
     var properties = {name: "My Name"};
-    cio.identify(userId, event, properties, function(err, res, body) {
+    cio.track(userId, event, properties, function(err, res, body) {
       // callback is only available on the server
     });
